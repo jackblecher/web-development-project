@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Extra Credit Web Development Project</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Web Development Project</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">About Us</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">Quiz</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="" alt="">
+                    <div class="intro-text">
+                        <span class="name">Hey there! Learn More About Us Below!</span>
+                        <hr class="star-light">
+                        <span class="skills">Website Creators <br/> Jack Blecher - Lucas Kokich - Jacob Rieflin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Group Members</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="LucasKokich.JPG" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="JackBlecher.JPEG" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="JacobRieflin.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                
+            </div>
+            <div class="row">
+                <div class="text-center">
+                    <section class="success" id="about">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <h2 style="color: #f8f9fa;">Quiz</h2>
+                                    <hr class="star-light">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 text-center">
+                                    <form id="quizForm" class="bg-dark text-light p-4 rounded shadow">
+                                        <h3>Question 1: What is Tableau used for?</h3>
+                                        <label>
+                                            <input type="radio" name="q1" value="a"> A. Programming<br>
+                                            <input type="radio" name="q1" value="b"> B. Data Visualization<br>
+                                            <input type="radio" name="q1" value="c"> C. Database Management<br>
+                                            <input type="radio" name="q1" value="d"> D. Web Development<br>
+                                        </label>
+                    
+                                        <h3>Question 2: What is a primary concern for data security?</h3>
+                                        <label>
+                                            <input type="radio" name="q2" value="a"> A. Speed<br>
+                                            <input type="radio" name="q2" value="b"> B. Availability<br>
+                                            <input type="radio" name="q2" value="c"> C. Confidentiality<br>
+                                            <input type="radio" name="q2" value="d"> D. Aesthetics<br>
+                                        </label>
+                    
+                                        <h3>Question 3: Which of the following is a key factor in internet connectivity?</h3>
+                                        <label>
+                                            <input type="radio" name="q3" value="a"> A. Bandwidth<br>
+                                            <input type="radio" name="q3" value="b"> B. Display<br>
+                                            <input type="radio" name="q3" value="c"> C. Power Supply<br>
+                                            <input type="radio" name="q3" value="d"> D. Security<br>
+                                        </label>
+                                        <br><br>
+                                        <button type="button" class="btn btn-primary" onclick="submitQuiz()">Submit</button>
+                                    </form>
+                                    <div id="result" style="display:none;">
+                                        <h3>Your Score:</h3>
+                                        <p id="score" class="star-light"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <script>
+                        function submitQuiz() {
+                            var score = 0;
+                            var totalQuestions = 3;
+                    
+                            // Get the selected answers for each question
+                            var q1 = document.querySelector('input[name="q1"]:checked');
+                            var q2 = document.querySelector('input[name="q2"]:checked');
+                            var q3 = document.querySelector('input[name="q3"]:checked');
+                    
+                            // Check answers
+                            if (q1 && q1.value === "b") score++;  // Correct answer: B
+                            if (q2 && q2.value === "c") score++;  // Correct answer: C
+                            if (q3 && q3.value === "a") score++;  // Correct answer: A
+                    
+                            // Show the result
+                            document.getElementById("quizForm").style.display = "none";
+                            document.getElementById("result").style.display = "block";
+                            document.getElementById("score").innerHTML = score + " out of " + totalQuestions;
+                        }
+                    </script>
+                    
+                    <style>
+                        /* Center the quiz */
+                        .success {
+                            padding: 50px 0;
+                            background-color: #1d1e2c;  /* Match the theme's dark color */
+                        }
+                        .row.justify-content-center {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: left;
+                        }
+                        #quizForm {
+                            background-color: #343a40; /* Dark background for quiz */
+                            padding: 30px;
+                            border-radius: 10px;
+                            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                        }
+                        #quizForm h3 {
+                            color: #f8f9fa; /* Light color for text */
+                        }
+                        button {
+                            margin-top: 20px;
+                        }
+                        #result {
+                            font-size: 1.2em;
+                            color: #f8f9fa;  /* Green color for score result */
+                            font-weight: bold;
+                        }
+                        .btn-primary {
+                            background-color: #007bff;  /* Button primary color */
+                            border-color: #007bff;
+                        }
+                        .btn-primary:hover {
+                            background-color: #0056b3;  /* Button hover effect */
+                            border-color: #004085;
+                        }
+                    </style>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Gonzaga University
+                            <br></p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Our Names</h3>
+                        <p><a> Jack Blecher, Lucas Kokich, Jacob Rieflin</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; BMIS-235 Website 2024
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+   
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="LucasKokich.JPG" class="img-responsive img-centered" alt="">
+                            <p>My name is Lucas Kokich and I am a sophomore attending Gonzaga University. I enjoy Playing sports, hanging with my friends, and watching TV/movies. I like to think I'm pretty good at math, and with leadership. For example, I was the main leader on retreat for my school my senior year of high school. I am majoring in business with concentrations in accounting and finance.</p>
+                            
+                            <ul class="list-inline item-details">
+                                <li>Soft Skills:
+                                    <a> Leadership, Cooperation and teamwork, Critical thinking</a>
+                                    
+                                </li>
+                                <li>Techincal Skills:
+                                    <a> Knowledgeable in programming languages, data analysis through excel, networking</a>
+                                    
+                                </li>
+                                <li>Personal Acheivements:
+                                    <a> Head leader on senior encounter, all league wide reciever, sinto volleyball champion</a>
+                                    
+                                </li>
+                            </ul>
+                            <h3>MIS Reflection</h3>
+                            <br>
+                            <p>Lucas' Reflection: In the world of Business Management Information Systems, there are so many intriguing topics that are so complex. One that specifically sticks out to me, however, is data security. I think it’s interesting to me because it’s something I deal with personally. Whether it be a notification from apple, saying to change my password, or its logging into my Gonzaga email through Microsoft authenticator app, I see it often. As technology continues to grow and people continue to become even more reliant on it, data security will become more important than ever. From customer data to financial records, the vast amount of information generated and stored within an organization's MIS systems makes it a prime target for cyberattacks. The growing prevalence of data breaches and hacking incidents, ranging from ransomware attacks to unauthorized access, has led me to reflect on the complexities of securing data in today's interconnected world.
+                                One aspect of data security that particularly interests me is data encryption. It’s essential both when data is at rest and also when it’s moving around between people, or companies. It’s really interesting to me how encryption can make readable code completely unreadable unless you have the correct key for it. This seemingly simple trick helps prevent hackers from stealing data and being able to read it. Something I wonder about with encryption, however, is if it will be able to adapt with the times as fast as others are. I’m sure with the evolving nature of technology, it will be easier for hackers to steal and decrypt data. How then will companies and people be able to ensure their data is staying safe?
+                                Another area inside data security I find interesting is the concept of access control. Another interesting area within data security is the concept of access control. In large organizations, different individuals or departments may require varying levels of access to sensitive information. Managing who can view, edit, or delete data is essential to preventing unauthorized actions. When researching this I came across the principle of least privilege. which suggests that users should only have access to the data necessary for them to perform their job functions. While this principle may seem straight forward, when its applied in a complex business environment, it can become challenging. For instance, how can access rights be effectively managed in organizations where employees frequently change roles or when new technologies like cloud computing introduce new vulnerabilities? Its ability to stay in control in a changing field is interesting. 
+                                Probably the most relevant topic inside data security is simply privacy. When looking to see how it helps keeping everything private I found encryption, and also the General Data Protection Regulation in the European Union and similar regulations in other regions, organizations are under increasing pressure to protect not just corporate data, but personal data as well. It is good that the consequences of violating privacy laws can be sever, so now people won’t break them as often. 
+                                Overall, while there are many interesting topics in BMIS, data security is a field that is most intriguing to me. As the digital landscape evolves, so too must the strategies employed to safeguard valuable information, making it an area of study that will remain relevant and dynamic for years to come.</p>
+                                                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Jack Blecher</h2>
+                            <hr class="star-primary">
+                            <img src="JackBlecher.JPEG" class="img-responsive img-centered" alt="">
+                            <p>Hi! My name is Jack Blecher, and I am a student at Gonzaga University. I am from Portland, Oregon and am the oldest of three. I like soccer, playing videogames, gardening, and wrestling. After collge, I want to be an Accoutant.</p>
+                            <ul class="list-inline item-details">
+                                <li>Soft Skills:
+                                    <a>Interpersonal Communication, Leadership, Problem Solving</a>
+                                    
+                                </li>
+                                <li>Technical Skills:
+                                    <a>Proficient in Excel, Proficient in Word, Basic Accounting skills</a>
+                                    
+                                </li>
+                                <li>Personal Achievements:
+                                    <a>Valedictorian, Recipient of $180,000 Marine NROTC scholarship</a>
+                                    
+                                </li>
+                            </ul>
+                            <br>
+                            <h3>MIS Reflection</h3>
+                            <br>
+                            <p>The MIS topic I found most interesting this semester was data visualization. I thought it was really interesting when we learned about how to visual our data in the correct ways. Learning how pie charts are ineffective was useful for the future since I never knew there was a problem with them before. Our entire lesson on data visualization was definitely the most engaging and for me, applicable. I will be going into accounting so a lot of my job will be looking at numbers or data and doing my best to make sense of them. One of the best ways for me, and many others to understand data is through pictures or graphs that do a lot of talking/explaining without very many words. Understanding how to communicate with others what certain data actually means is a very important skill, not only in accounting, but in life. Accounting is a lot of interaction with numbers, but what most people don’t realize is a lot of your job is just interpreting the numbers you’re saying to other people. Data visualization is extremely helpful in this.
+                                <br>
+                                Learning how to use Tableau, a data visualization software, was a great skill and I definitely think one of the most important things we learned in our MIS class this year. Not only was it probably the most applicable for me, it was also the most fun and engaging because you get to look at pictures and graphs instead of coding things you don’t understand too well. For example, when we used the map visualization in our Tableau project, I thought that was fascinating. Being able to look at a full map of the world and visually see patterns was so effective for me. Or for the forecasted sales using a continuous line graph, it was just so much easier to identify how years trended. Data visualization was by far the topic that grabbed me the most. Being able to see data trends or patterns was much easier than it was in any of the other topics, and actually setting up the data extraction was at least five times easier. With other topics, it took hours for me to fully comprehend or do things on my own. With Tableau, I learned way faster, so I definitely enjoyed it the most.
+                                <br>
+                                Data visualization ended up being the MIS topic I became most curious about from our class this semester. We went through html, queries, javascript, python, but data visualization using Tableau is the thing that really caught my attention and made me the most interested. As I’ve stated above, I am an accounting major, and to me, data visualization was the most applicable thing we learned this year. I will 100% be using some of the skills we learned in class later on in my career to help explain the numbers that come from accounting. I want to now learn more about data visualization so I can refine my skills in it and make my graphs the most effective they can possibly be in the future. I’m thankful that this class provided an opportunity to peak my interest in this field, and helped me develop my skills in it.
+                                    </p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="JacobRieflin.jpg" class="img-responsive img-centered" alt="">
+                            <p>Personal Profile: My name is Jacob Rieflin and I am a sophmore business student with concentrations in Marketing and Operations Management at Gonzaga University. I am from Portland Oregon and I enjoy spending time in the outdoors with friends whether it is skiing or backpacking. I also am an avid car enthusiast and I enjoy watching football and motorsports.</p>
+                            <ul class="list-inline item-details"></p>
+                            <ul class="list-inline item-details">
+                                <li>Soft Skills:
+                                    <a>Resourcefulness, Leadership, Problem Solving</a>
+                                    
+                                </li>
+                                <li>Technical Skills:
+                                    <a>Proficient in Excel, Word, Powerpoint, Photoshop. Basic Acctounting skills and CAD skills.
+                                    </a>
+                                    
+                                </li>
+                                <li>Personal Achievements:
+                                    <a>Received the Presidential Service Award 2023, Competed at nationals for rowing 2023
+                                    </a>
+                                    
+                                </li>
+                            </ul>
+                            <h3>MIS Reflection</h3>
+                            <br>
+                            <p>Global internet connections form the backbone of modern communication, commerce, and education. The ubiquity of the internet allows individuals and organizations to share ideas, conduct transactions, and access information with remarkable efficiency. This interconnectedness has profound implications for society, business, and governance, creating both opportunities and challenges. 
+
+                                One significant impact of global internet connections is the democratization of information. The internet provides access to vast amounts of knowledge, leveling the playing field for many. Small businesses can compete on a global stage through platforms like Amazon and Etsy, accessing markets far beyond their physical location. 
+                                
+                                However, this connectivity also highlights disparities. The digital divide remains a critical issue, with rural and underdeveloped regions often lacking reliable internet infrastructure. Addressing this divide requires investment in infrastructure and policies that promote equitable access. 
+                                
+                                Innovations like satellite internet technology, such as SpaceX's Starlink, aim to bridge this divide by bringing high-speed internet to remote areas. Similarly, quantum internet technology offers the potential for secure and efficient global communication, while AI and machine learning optimize data traffic and enhance user experiences. 
+                                
+                                Despite these advancements, global internet connectivity brings challenges related to privacy, security, and governance. Cybersecurity threats, misinformation, and monopolization of data by tech giants are pressing concerns. Addressing these requires balancing innovation with ethical considerations and robust regulations. 
+                                
+                                In conclusion, global internet connections have transformed the world into an interconnected web of opportunities and challenges. Innovations such as satellite internet, quantum computing, and AI promise to redefine connectivity, but their success depends on addressing inequalities and ensuring ethical implementation. Stakeholders must work together to ensure the internet empowers individuals and communities worldwide. </p>
+                                                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>
